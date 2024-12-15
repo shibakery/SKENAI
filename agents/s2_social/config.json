@@ -1,0 +1,16 @@
+{
+    "agent_name": "S2",
+    "description": "Social Media Intelligence Agent",
+    "capabilities": [
+        "social_media_management",
+        "community_engagement",
+        "sentiment_analysis",
+        "content_creation"
+    ],
+    "platforms": {
+        "twitter": {
+            "enabled": true,
+            "api_version": "2.0"
+        }
+    }
+}

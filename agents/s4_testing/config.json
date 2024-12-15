@@ -1,0 +1,19 @@
+{
+    "agent_name": "S4",
+    "description": "Testing & Deployment Agent",
+    "capabilities": [
+        "automated_testing",
+        "security_auditing",
+        "deployment_management",
+        "performance_monitoring"
+    ],
+    "test_environments": {
+        "local": {
+            "enabled": true
+        },
+        "testnet": {
+            "enabled": true,
+            "networks": ["goerli", "mumbai"]
+        }
+    }
+}

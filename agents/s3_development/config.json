@@ -1,0 +1,16 @@
+{
+    "agent_name": "S3",
+    "description": "DAO Development & Crowdfunding Agent",
+    "capabilities": [
+        "smart_contract_development",
+        "amm_implementation",
+        "liquidity_pool_management",
+        "dao_governance"
+    ],
+    "integrations": {
+        "web3": {
+            "enabled": true,
+            "networks": ["ethereum", "polygon"]
+        }
+    }
+}

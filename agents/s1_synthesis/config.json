@@ -1,0 +1,16 @@
+{
+    "agent_name": "S1",
+    "description": "Data Synthesis & Market Analysis Agent",
+    "capabilities": [
+        "data_analysis",
+        "market_research",
+        "strategy_development",
+        "dov_management"
+    ],
+    "api_integrations": {
+        "everstrike": {
+            "enabled": true,
+            "endpoint": "https://api.everstrike.io/v1"
+        }
+    }
+}
