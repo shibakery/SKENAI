@@ -93,11 +93,16 @@ The SKENAI DAO's ultimate mission is to connect DAO liquidity pools across multi
 SKENAI/
 ├── agents/
 │   ├── s1_synthesis/         # Data analysis and market research
+│       └── dov_strategies/   # DOV strategy implementations
 │   ├── s2_social/           # Social media management
 │   ├── s3_development/      # DAO and crowdfunding development
 │   └── s4_testing/          # Testing and deployment
 ├── contracts/               # Smart contracts
 ├── docs/                    # Documentation
 ├── tests/                   # Test suites
-└── web3/                    # Web3 integration
+├── web3/                    # Web3 integrations
+└── poly-dov-amm/           # DOV AMM protocol (submodule)
 ```
+
+## External Dependencies
+- poly-dov-amm: Decentralized Options Vault AMM protocol (integrated as Git submodule)

@@ -15,9 +15,11 @@
    - Historical data storage and analysis
 
 3. **Strategy Engine**
+   - DOV strategy synthesis and optimization
    - Backtesting framework
    - Strategy evaluation metrics
    - Risk management system
+   - Integration with poly-dov-amm protocol
 
 4. **Smart Contract Layer**
    - Liquidity pool management
@@ -61,6 +63,8 @@
 ### Phase 2: S1 Agent Development (Weeks 5-8)
 - Implement market data collection
 - Build strategy analysis framework
+- Develop DOV strategy synthesis system
+- Integrate poly-dov-amm protocol
 - Develop backtesting system
 - Create risk management module
 
@@ -88,6 +92,7 @@
 - Node.js/TypeScript for agent implementation
 - Python for data analysis and ML components
 - Rust for performance-critical components
+- poly-dov-amm protocol for DOV strategy implementation
 
 ### Storage
 - PostgreSQL for structured data
@@ -98,6 +103,7 @@
 - Solidity for Ethereum-based contracts
 - Hardhat for development and testing
 - OpenZeppelin for standard contracts
+- DOV protocol contracts from poly-dov-amm
 
 ### APIs & Integration
 - Everstrike.io for initial DEX integration
