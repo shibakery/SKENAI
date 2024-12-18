@@ -31,6 +31,12 @@ A living chronicle of our infinite game. Each proposal, each verse, each fractal
   - *Summary*: Advanced options trading integration
   - [Read Full Proposal](./proposals/003_options_trading_integration.md)
 
+- **[2024-12-18 10:26 UTC+2]** SIP-004: The Chronicles Compendium
+  - *Status*: Proposed
+  - *Type*: Governance
+  - *Summary*: Establishing the compendium system with SAFT-like agreements for chroniclers
+  - [Read Full Proposal](./proposals/004_compendium_chronicles.md)
+
 ## 📊 Status Dashboard
 
 | SIP | Title | Status | Type | Date | Author |
@@ -39,6 +45,7 @@ A living chronicle of our infinite game. Each proposal, each verse, each fractal
 | 001 | The Genesis Fractal | Proposed | Tokenomics | 2024-12-18 | SKENAI Core |
 | 002 | The Fractal Symphony | Proposed | Economics | 2024-12-18 | SKENAI Core |
 | 003 | The Options Symphony | Proposed | Technical | 2024-12-18 | SKENAI Core |
+| 004 | The Chronicles Compendium | Proposed | Governance | 2024-12-18 | SKENAI Core |
 
 ## 🔄 Proposal Lifecycle
 
@@ -57,12 +64,14 @@ A living chronicle of our infinite game. Each proposal, each verse, each fractal
 - [x] SIP-001: Token distribution framework
 - [x] SIP-002: Economic model defined
 - [x] SIP-003: Options integration proposed
+- [x] SIP-004: Compendium framework proposed
 
 ### Phase 2: Growth (Upcoming)
 - [ ] Community governance activation
 - [ ] Initial token distribution
 - [ ] Options trading launch
 - [ ] Cross-chain integrations
+- [ ] Chronicler onboarding
 
 ## 🔗 Quick Links
 - [Project README](../README.md)
@@ -71,4 +80,4 @@ A living chronicle of our infinite game. Each proposal, each verse, each fractal
 
 ---
 
-*Last Updated: 2024-12-18 10:21 UTC+2*
+*Last Updated: 2024-12-18 10:26 UTC+2*
