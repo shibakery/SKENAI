@@ -1,3 +1,6 @@
 [submodule "poly-dov-amm"]
 	path = poly-dov-amm
 	url = https://github.com/shibakenfinance/poly-dov-amm
+[submodule "whitelist-airdrop"]
+	path = whitelist-airdrop
+	url = https://github.com/shibakenfinance/whitelist-airdrop.git
