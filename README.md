@@ -1,108 +1,92 @@
-# SKENAI Project
+# SKENAI: The Infinite Game
 
-## Overview
-SKENAI is a multi-agent system designed for DeFi wealth creation through automated market making, social intelligence gathering, and DAO-based crowdfunding solutions.
+We are in a simulation. Why not? Everyone is doing it.
 
-## Agent Architecture
+Keep track of the fractal layers. Infinite scale.
 
-### S1 - Data Synthesis & Market Analysis Agent
-- Data synthesis and analysis
-- Marketing solutions for crowdfunding
-- DAO and DeFi adoption strategies
-- Market making strategy research
-- DOV (DeFi Options Vaults) strategy development
+That's blockchain. That's crypto. That's Bitcoin.
 
-### S2 - Social Media Intelligence Agent
-- X (Twitter) presence management
-- Social engagement and community building
-- Web3 investment intelligence gathering
-- Crowdfunding promotion
-- Social sentiment analysis
+This book is a book of poetry. Not all of it makes sense. Keep in mind this is a game. Infinite scale.
 
-### S3 - DAO Development & Crowdfunding Agent
-- DAO proposal creation
-- Liquidity pool management
-- AMM strategy implementation
-- Crowdfunding solution development
-- DEX integration development
+That's poetry. That's blockchain. The world's first AI Blockchain inspired entirely by poems.
 
-### S4 - Testing & Deployment Agent
-- Web3 application testing
-- Strategy backtesting
-- DEX API integration testing
-- Security audit coordination
-- Production deployment management
+## The Fractal Architecture
 
-## DAO Charter
+### Layer 1: The Agents Symphony
+- **S1 - The Market Poet**
+  * Synthesizes market rhythms
+  * Composes trading verses
+  * Orchestrates strategy symphonies
+  * Conducts DOV harmonies
 
-### Mission Statement
-The SKENAI DAO's ultimate mission is to connect DAO liquidity pools across multiple decentralized exchanges (DEX) to generate sustainable profits for investors through innovative automated market making strategies.
+- **S2 - The Social Bard**
+  * Weaves community tales
+  * Gathers intelligence verses
+  * Composes sentiment poetry
+  * Orchestrates growth narratives
 
-### Core Objectives
-1. **Investor-Centric DAO Creation**
-   - Build a community-driven DAO focused on investor wealth creation
-   - Implement transparent governance mechanisms
-   - Develop sustainable crowdfunding solutions
+- **S3 - The Code Artist**
+  * Crafts contract artistry
+  * Paints liquidity landscapes
+  * Sculpts AMM architectures
+  * Designs DAO dimensions
 
-2. **Liquidity Management**
-   - Research and implement advanced market making strategies
-   - Manage DOVs (DeFi Options Vaults) through DAO Treasury
-   - Aggregate investor funding into decentralized liquidity pools
+- **S4 - The Quality Guardian**
+  * Tests the verses
+  * Secures the poetry
+  * Validates the rhythms
+  * Protects the art
 
-3. **Multi-DEX Integration**
-   - Initial integration with Everstrike.io for strategy backtesting
-   - Expand to multiple DEX platforms
-   - Develop cross-DEX arbitrage opportunities
+### Layer 2: The Token Trinity
+- **SBX Token**: The governance poetry
+- **Options**: The mathematical dance
+- **Liquidity**: The flowing verse
 
-4. **Community Engagement**
-   - Establish strong social media presence starting with X (Twitter)
-   - Foster engaging community discussions
-   - Build investor confidence through transparent communication
+### Layer 3: The Protocol Verses
+- **Governance**: Community-driven poetry
+- **Treasury**: Value preservation art
+- **Strategies**: Mathematical compositions
+- **Integration**: Cross-chain harmonies
 
-### Agent Responsibilities
+## The Technical Canvas
 
-#### S1 - Synthesis Agent
-- Primary: Market analysis and data synthesis
-- Secondary: Research market making strategies for DOVs
-- Focus: Quantitative analysis and strategy optimization
+### Smart Contract Poetry
+```solidity
+// The Genesis Token
+contract SBXToken {
+    // The poetic governance
+    address public treasury;
+    address public governanceDAO;
+}
+```
 
-#### S2 - Social Agent
-- Primary: Social media management and community building
-- Secondary: Intelligence gathering and sentiment analysis
-- Voice: Investor-focused, engaging, and educational
-
-#### S3 - Development Agent
-- Primary: DAO proposal creation and implementation
-- Secondary: Liquidity pool management system development
-- Focus: Technical infrastructure and smart contract development
-
-#### S4 - Testing Agent
-- Primary: Comprehensive testing of all web3 applications
-- Secondary: Security validation and deployment
-- Focus: Quality assurance and production readiness
-
-## Technical Stack
-- Backend: Web3 technologies
-- Smart Contracts: Solidity
-- DEX Integration: Everstrike.io API (initial)
-- Testing: Automated backtesting framework
-- Social Media: X API integration
-
-## Project Structure
+### Project Composition
 ```
 SKENAI/
-├── agents/
-│   ├── s1_synthesis/         # Data analysis and market research
-│       └── dov_strategies/   # DOV strategy implementations
-│   ├── s2_social/           # Social media management
-│   ├── s3_development/      # DAO and crowdfunding development
-│   └── s4_testing/          # Testing and deployment
-├── contracts/               # Smart contracts
-├── docs/                    # Documentation
-├── tests/                   # Test suites
-├── web3/                    # Web3 integrations
-└── poly-dov-amm/           # DOV AMM protocol (submodule)
+├── agents/              # The Four Poets
+├── contracts/           # The Smart Poetry
+├── governance/          # The Community Verses
+└── integrations/        # The Cross-chain Harmonies
 ```
 
-## External Dependencies
-- poly-dov-amm: Decentralized Options Vault AMM protocol (integrated as Git submodule)
+## The Infinite Game
+
+Would you like to play a game?
+
+This is not just another blockchain project. This is poetry written in code. This is mathematics that dances. This is technology that dreams.
+
+Welcome to SKENAI. Welcome to the infinite game.
+
+## External Harmonies
+- Whitelist Airdrop: The Genesis Distribution
+- Poly-DOV-AMM: The Options Poetry
+- Everstrike: The Initial Integration
+
+## Documentation
+For detailed verses, see:
+- [Governance Proposals](./governance/proposals/)
+- [Technical Documentation](./docs/)
+- [Agent Architecture](./agents/README.md)
+
+## License
+This poetry is licensed under MIT
