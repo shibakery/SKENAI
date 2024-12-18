@@ -43,6 +43,12 @@ A living chronicle of our infinite game. Each proposal, each verse, each fractal
   - *Summary*: Creating a tokenized archive system for documentation with auction mechanics
   - [Read Full Proposal](./proposals/005_infinite_archive.md)
 
+- **[2024-12-18 10:42 UTC+2]** SIP-006: Racing Legends - The Infinite Circuit
+  - *Status*: Proposed
+  - *Type*: Community
+  - *Summary*: NFT helmet designs inspired by racing heritage with F1 experience rewards
+  - [Read Full Proposal](./proposals/006_racing_legends.md)
+
 ## 📊 Status Dashboard
 
 | SIP | Title | Status | Type | Date | Author |
@@ -53,6 +59,7 @@ A living chronicle of our infinite game. Each proposal, each verse, each fractal
 | 003 | The Options Symphony | Proposed | Technical | 2024-12-18 | SKENAI Core |
 | 004 | The Chronicles Compendium | Proposed | Governance | 2024-12-18 | SKENAI Core |
 | 005 | The Infinite Archive | Proposed | Infrastructure | 2024-12-18 | SKENAI Core |
+| 006 | Racing Legends | Proposed | Community | 2024-12-18 | SKENAI Core |
 
 ## 🔄 Proposal Lifecycle
 
@@ -73,6 +80,7 @@ A living chronicle of our infinite game. Each proposal, each verse, each fractal
 - [x] SIP-003: Options integration proposed
 - [x] SIP-004: Compendium framework proposed
 - [x] SIP-005: Archive system proposed
+- [x] SIP-006: Racing Legends program proposed
 
 ### Phase 2: Growth (Upcoming)
 - [ ] Community governance activation
@@ -82,13 +90,16 @@ A living chronicle of our infinite game. Each proposal, each verse, each fractal
 - [ ] Chronicler onboarding
 - [ ] Archive system deployment
 - [ ] Genesis collection auction
+- [ ] Racing Legends NFT launch
+- [ ] F1 experience program activation
 
 ## 🔗 Quick Links
 - [Project README](../README.md)
 - [Technical Documentation](../docs/)
 - [Governance Framework](./README.md)
 - [Archive System](./proposals/005_infinite_archive.md)
+- [Racing Legends](./proposals/006_racing_legends.md)
 
 ---
 
-*Last Updated: 2024-12-18 10:33 UTC+2*
+*Last Updated: 2024-12-18 10:42 UTC+2*
