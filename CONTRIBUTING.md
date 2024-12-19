@@ -5,24 +5,41 @@ Welcome to the SKENAI infinite game! We're excited to have you join our journey.
 ## 🤝 How to Join
 
 ### 1. Follow the Repository
-- Visit https://github.com/shibakenfinance/SKENAI
-- Click the "Watch" button to receive notifications
-- Star the repository to show your support
+- Main Organization: https://github.com/shibakery
+- Development Organization: https://github.com/shibakenfinance
+- Main Repository: https://github.com/shibakery/SKENAI
+- Development Repository: https://github.com/shibakenfinance/SKENAI
 
 ### 2. Team Access
 
 #### For Core Team Members
-Contact the repository admin to be added as a collaborator:
-1. Share your GitHub username
-2. You'll receive an invitation email
-3. Accept the invitation to gain access
+1. Ensure you're a member of the Shibakery organization
+2. Visit https://github.com/shibakery
+3. Request access to the SKENAI repository
+4. You'll receive an invitation email
+5. Accept the invitation to gain access
 
-#### For Organization Members
-Join our teams:
-- SKENAI-Core: Core development team
-- SKENAI-Research: Research and strategy
-- SKENAI-Community: Community management
-- SKENAI-Design: UI/UX and visual design
+#### For Organization Teams
+Join our specialized teams:
+- **Core Development** (@shibakery/core-dev)
+  * Smart contract development
+  * Protocol architecture
+  * Technical implementation
+
+- **Research & Strategy** (@shibakery/research)
+  * Tokenomics research
+  * Market analysis
+  * Strategy development
+
+- **Community & Growth** (@shibakery/community)
+  * Community management
+  * Social media
+  * Content creation
+
+- **Design & UX** (@shibakery/design)
+  * UI/UX design
+  * Visual assets
+  * Racing Legends NFT design
 
 ### 3. Access Levels
 
@@ -50,6 +67,9 @@ Join our teams:
 
 1. **Fork the Repository**
    ```bash
+   # For core team members
+   git clone https://github.com/shibakery/SKENAI.git
+   # For contributors
    git clone https://github.com/shibakenfinance/SKENAI.git
    cd SKENAI
    ```
@@ -137,6 +157,25 @@ As part of our racing heritage:
    - Time-boxed iterations
    - Performance metrics
 
+## 🔄 Repository Sync
+
+The project maintains two repositories:
+1. **Main Repository** (https://github.com/shibakery/SKENAI)
+   - Production code
+   - Released versions
+   - Official documentation
+
+2. **Development Repository** (https://github.com/shibakenfinance/SKENAI)
+   - Development work
+   - Testing
+   - Experimental features
+
+Team members should:
+1. Have access to both organizations
+2. Use appropriate repository based on task
+3. Follow proper branching strategy
+4. Maintain sync between repositories
+
 ---
 
-*Last Updated: 2024-12-18 10:59 UTC+2*
+*Last Updated: 2024-12-18 11:29 UTC+2*
