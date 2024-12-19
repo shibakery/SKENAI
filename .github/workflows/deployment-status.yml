@@ -1,0 +1,66 @@
+name: Deployment Readiness Update
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Run every 4 hours
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  send-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install markdown
+          pip install python-dateutil
+
+      - name: Send email update
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: SKENAI Deployment Readiness Update
+          to: skenooventure@gmail.com
+          from: SKENAI Deployment Monitor
+          body: |
+            Please find the latest deployment readiness status below:
+            
+            ${{ steps.get_content.outputs.content }}
+            
+            This is an automated message. Please do not reply.
+          content_type: text/html
+
+      - name: Process Markdown
+        id: get_content
+        run: |
+          python -c '
+          import markdown
+          import os
+          from datetime import datetime
+          from dateutil import tz
+          
+          # Read the markdown file
+          with open("docs/DEPLOYMENT_READINESS.md", "r") as f:
+              content = f.read()
+          
+          # Update the timestamp
+          tz_ist = tz.gettz("Asia/Jerusalem")
+          current_time = datetime.now(tz_ist).strftime("%Y-%m-%d %H:%M %Z")
+          content = content.replace("Last Updated: *", f"Last Updated: {current_time}")
+          
+          # Convert to HTML
+          html = markdown.markdown(content)
+          
+          # Save the processed content
+          print(f"::set-output name=content::{html}")
+          '

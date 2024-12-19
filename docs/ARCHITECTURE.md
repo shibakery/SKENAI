@@ -322,21 +322,74 @@
      * Risk-reward balancing
      * Innovation focus
 
-### The Infinite Circuit: Performance Matrix
+### The Infinite Circuit: Mycelial Performance Matrix
 
+The SKENAI performance matrix adopts a mycelial structure, allowing for organic growth and interconnected relationships between proposals while maintaining the core 7-track framework.
+
+#### Base Layer (Level 0)
 ```
-Performance Level (Z) ↗
+Performance Level (Y) ↗
      ┌──────────────────── Tracks (X) ────────────────────┐
-     Genesis  Fractal  Options  Research  Archive  Community  Final Boss
- P   [000]     [ ]      [ ]      [ ]      [ ]      [ ]        [ ]     ← Entry
- e   [ ]      [001]     [ ]      [ ]      [ ]      [ ]        [ ]     ← Bronze
- r   [ ]       [ ]     [002]     [ ]      [ ]      [ ]        [ ]     ← Silver
- f   [ ]       [ ]      [ ]     [003]     [ ]      [ ]        [ ]     ← Gold
- o   [ ]       [ ]      [ ]      [ ]     [004]     [ ]        [ ]     ← Platinum
- r   [ ]       [ ]      [ ]      [ ]      [ ]     [005]       [ ]     ← Diamond
- m   [ ]       [ ]      [ ]      [ ]      [ ]      [ ]       [006]    ← Legend
+     Genesis  Fractal  Options  Research  Community  Encyclic
+ P   [000]     [ ]      [ ]      [ ]      [ ]        [ ]     ← Entry
+ e   [ ]      [001]     [ ]      [ ]      [ ]        [ ]     ← Bronze
+ r   [ ]       [ ]     [002]     [ ]      [ ]        [ ]     ← Silver
+ f   [ ]       [ ]      [ ]     [003]     [ ]        [ ]     ← Gold
+ o   [ ]       [ ]      [ ]      [ ]      [ ]        [ ]     ← Platinum
+ r   [ ]       [ ]      [ ]      [ ]      [ ]        [ ]     ← Diamond
+ m   [ ]       [ ]      [ ]      [ ]      [ ]        [ ]     ← Legend
 (Y)
 ```
+
+#### Fractal Depth Structure (Z-Axis)
+
+Each position in the base matrix can spawn sub-proposals that extend along the Z-axis, creating a three-dimensional mycelial network:
+
+```
+Level 0 (Base Node)           [Primary Proposal]
+                                     │
+Level 1 (Sub-Proposals)    ┌────┬────┴────┬────┐
+                          │    │         │    │
+                       [Sub1][Sub2]    [Sub3][Sub4]
+                          │    │         │    │
+Level 2 (Dependencies)  ┌──┘  ┌─┴─┐   ┌──┘    └──┐
+                       │     │   │   │          │
+                    [Dep1] [Dep2] │  [Dep3]   [Dep4]
+                                 └──── Cross-connections
+```
+
+#### Mycelial Properties
+
+1. **Fractal Growth**
+   - Each proposal can spawn N sub-proposals based on complexity
+   - Sub-proposals inherit track characteristics while developing specializations
+   - No artificial limits on depth or breadth of connections
+
+2. **Cross-Connections**
+   - Proposals can form connections across:
+     * Different tracks
+     * Different performance levels
+     * Different depth levels
+   - Connections strength is determined by:
+     * Shared dependencies
+     * Complementary objectives
+     * Verification overlap
+
+3. **Depth Mechanics**
+   - Level 0: Primary proposals (7x7 matrix)
+   - Level 1+: Supporting proposals with specialized focus
+   - Cross-level connections: Enable resource and insight sharing
+
+4. **Verification Propagation**
+   - Verification flows bidirectionally through connections
+   - Sub-proposal verification strengthens parent proposals
+   - Cross-connections amplify verification confidence
+
+This structure maintains the clarity of the 7-track system while enabling:
+- Infinite scalability through fractal growth
+- Organic development of proposal relationships
+- AI agent autonomy in creating supporting structures
+- Natural emergence of proposal ecosystems
 
 ### Performance Metrics
 
@@ -384,18 +437,7 @@ Performance Level (Z) ↗
    }
    ```
 
-5. **Archive Track**
-   ```
-   Progress = (Documentation Coverage * 0.4) + (Knowledge Base Growth * 0.3) + (Usage Rate * 0.3)
-   Threshold = {
-     "Bronze": 1000 articles
-     "Silver": 5000 articles
-     "Gold": 15000 articles
-     ...
-   }
-   ```
-
-6. **Community Track**
+5. **Community Track**
    ```
    Progress = (Engagement * 0.4) + (Content Creation * 0.3) + (Support Activity * 0.3)
    Threshold = {
@@ -406,13 +448,13 @@ Performance Level (Z) ↗
    }
    ```
 
-7. **Final Boss Track**
+6. **Encyclic Track**
    ```
-   Progress = (Racing Performance * 0.3) + (Research Impact * 0.3) + (Community Support * 0.2) + (Profit Generation * 0.2)
+   Progress = (Knowledge Base Growth * 0.4) + (Documentation Coverage * 0.3) + (Usage Rate * 0.3)
    Threshold = {
-     "Bronze": Combined Score > 6.0
-     "Silver": Combined Score > 7.0
-     "Gold": Combined Score > 8.0
+     "Bronze": 1000 articles
+     "Silver": 5000 articles
+     "Gold": 15000 articles
      ...
    }
    ```

@@ -4,6 +4,11 @@ Welcome to the SKENAI governance proposals repository. Here you'll find all our 
 
 ## 📚 Quick Navigation
 
+### Token Ecosystem
+- **SHIBAK**: Community engagement & base governance token
+- **SBX**: Technical governance & protocol control token
+- **SBV**: Performance tracking & value accrual token
+
 ### Genesis Collection (BMW M Motorsport Edition)
 
 | SIP | Title | Status | Design Theme |
@@ -19,19 +24,27 @@ Welcome to the SKENAI governance proposals repository. Here you'll find all our 
 ## 🎯 Key Features
 
 ### Economic Framework
-- Token Distribution (SIP-001)
+- Multi-Token Integration (SHIBAK, SBX, SBV)
+- Token Distribution & Vesting (SIP-001)
 - Tokenomics Design (SIP-002)
 - Options Trading (SIP-003)
+- Community Engagement System
+- Performance Metrics Framework
 
 ### Governance Structure
 - Foundation Vision (SIP-000)
 - Documentation System (SIP-004)
 - Archive Creation (SIP-005)
+- Dual-Token Voting System
+- Engagement Score Multipliers
+- Stake-Weighted Governance
 
 ### Community Engagement
 - Racing Legends Program (SIP-006)
 - F1 Experience Rewards
 - NFT Collections
+- SHIBAK Staking Program
+- Achievement Registry System
 
 ## 🏆 Rewards Program
 
@@ -52,13 +65,22 @@ Welcome to the SKENAI governance proposals repository. Here you'll find all our 
 - [x] Core proposals drafted
 - [x] Initial governance structure
 - [x] Racing Legends program design
+- [x] SHIBAK token integration
 - [ ] Community voting activation
 
 ### Phase 2: Growth (Q2 2025)
-- [ ] Token distribution
+- [ ] SBX token distribution
+- [ ] SBV performance tracking launch
 - [ ] NFT minting
 - [ ] F1 experience program
 - [ ] Archive system launch
+- [ ] Community engagement system deployment
+
+### Phase 3: Expansion (Q3 2025)
+- [ ] Cross-token incentives activation
+- [ ] Advanced governance features
+- [ ] Performance metrics system
+- [ ] Enhanced staking rewards
 
 ## 🔗 Important Links
 - [Main Compendium](../COMPENDIUM.md)
@@ -76,4 +98,4 @@ Welcome to the SKENAI governance proposals repository. Here you'll find all our 
 
 ---
 
-*Last Updated: 2024-12-18 10:55 UTC+2*
+*Last Updated: 2024-12-19 22:47 UTC+2*
