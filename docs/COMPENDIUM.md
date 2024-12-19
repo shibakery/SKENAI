@@ -11,43 +11,43 @@ A living chronicle of our infinite game. Each proposal, each verse, each fractal
   - *Status*: Proposed
   - *Type*: Foundation
   - *Summary*: Establishing the vision, tokenomics, and initial distribution strategy for SKENAI
-  - [Read Full Proposal](./proposals/000_genesis_whitelist.md)
+  - [Read Full Proposal](../governance/proposals/000_genesis_whitelist.md)
 
 - **[2024-12-18]** SIP-001: The Genesis Fractal - SBX Token Distribution
   - *Status*: Proposed
   - *Type*: Tokenomics
   - *Summary*: Detailed distribution layers and airdrop mechanics
-  - [Read Full Proposal](./proposals/001_sbx_genesis_distribution.md)
+  - [Read Full Proposal](../governance/proposals/001_sbx_genesis_distribution.md)
 
 - **[2024-12-18]** SIP-002: SBX Token Economics - The Fractal Symphony
   - *Status*: Proposed
   - *Type*: Economics
   - *Summary*: Token economics, vesting schedules, and utility framework
-  - [Read Full Proposal](./proposals/002_sbx_tokenomics.md)
+  - [Read Full Proposal](../governance/proposals/002_sbx_tokenomics.md)
 
 - **[2024-12-18]** SIP-003: The Fractal Options Symphony
   - *Status*: Proposed
   - *Type*: Technical
   - *Summary*: Advanced options trading integration
-  - [Read Full Proposal](./proposals/003_options_trading_integration.md)
+  - [Read Full Proposal](../governance/proposals/003_options_trading_integration.md)
 
 - **[2024-12-18 10:26 UTC+2]** SIP-004: The Chronicles Compendium
   - *Status*: Proposed
   - *Type*: Governance
   - *Summary*: Establishing the compendium system with SAFT-like agreements for chroniclers
-  - [Read Full Proposal](./proposals/004_compendium_chronicles.md)
+  - [Read Full Proposal](../governance/proposals/004_compendium_chronicles.md)
 
 - **[2024-12-18 10:33 UTC+2]** SIP-005: The Infinite Archive
   - *Status*: Proposed
   - *Type*: Infrastructure
   - *Summary*: Creating a tokenized archive system for documentation with auction mechanics
-  - [Read Full Proposal](./proposals/005_infinite_archive.md)
+  - [Read Full Proposal](../governance/proposals/005_infinite_archive.md)
 
 - **[2024-12-18 10:42 UTC+2]** SIP-006: Racing Legends - The Infinite Circuit
   - *Status*: Proposed
   - *Type*: Community
   - *Summary*: NFT helmet designs inspired by racing heritage with F1 experience rewards
-  - [Read Full Proposal](./proposals/006_racing_legends.md)
+  - [Read Full Proposal](../governance/proposals/006_racing_legends.md)
 
 ## 📊 Status Dashboard
 
@@ -95,11 +95,7 @@ A living chronicle of our infinite game. Each proposal, each verse, each fractal
 
 ## 🔗 Quick Links
 - [Project README](../README.md)
-- [Technical Documentation](../docs/)
-- [Governance Framework](./README.md)
-- [Archive System](./proposals/005_infinite_archive.md)
-- [Racing Legends](./proposals/006_racing_legends.md)
-
----
-
-*Last Updated: 2024-12-18 10:42 UTC+2*
+- [Technical Architecture](./ARCHITECTURE.md)
+- [Governance Framework](../governance/proposals/README.md)
+- [Archive System](../governance/proposals/005_infinite_archive.md)
+- [Racing Legends](../governance/proposals/006_racing_legends.md)
