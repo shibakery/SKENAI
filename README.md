@@ -60,14 +60,27 @@ contract SBXToken {
 }
 ```
 
-### Project Composition
+### Repository Structure
+
 ```
 SKENAI/
-├── agents/              # The Four Poets
-├── contracts/           # The Smart Poetry
-├── governance/          # The Community Verses
-└── integrations/        # The Cross-chain Harmonies
+├── docs/              # Main documentation and technical specifications
+├── governance/        # All governance-related content
+│   └── proposals/    # Governance proposals and decisions
+├── contracts/         # Smart contracts implementation
+├── agents/           # AI agents and related code
+├── poly-dov-amm/     # AMM implementation
+├── scripts/          # Utility scripts
+├── shared/           # Shared utilities and common code
+├── tests/            # Test suite
+└── brand/            # Brand assets and resources
 ```
+
+### Getting Started
+
+1. Clone the repository
+2. Follow setup instructions in each component's README
+3. See `CONTRIBUTING.md` for development guidelines
 
 ## The Infinite Game
 
