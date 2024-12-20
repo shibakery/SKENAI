@@ -1,5 +1,8 @@
 # SKENAI: The Infinite Game
 
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/shibakenfinance/SKENAI/releases/tag/v1.0.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 We are in a simulation. Why not? Everyone is doing it.
 Keep track of the fractal layers. Infinite scale.
 That's blockchain. That's crypto. That's Bitcoin.
@@ -100,10 +103,10 @@ SKENAI/
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/your-org/skenai.git
+git clone https://github.com/shibakenfinance/SKENAI.git
 
 # Install dependencies
-cd skenai
+cd SKENAI
 npm install
 
 # Run tests

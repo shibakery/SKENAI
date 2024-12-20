@@ -4,3 +4,6 @@
 [submodule "whitelist-airdrop"]
 	path = whitelist-airdrop
 	url = https://github.com/shibakenfinance/whitelist-airdrop.git
+[submodule "prime-blockchain"]
+	path = prime-blockchain
+	url = https://github.com/shibakenfinance/prime-blockchain.git
