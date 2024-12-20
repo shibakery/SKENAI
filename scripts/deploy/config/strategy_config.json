@@ -1,0 +1,53 @@
+{
+    "networks": {
+        "mainnet": {
+            "aiAgent": "",
+            "dovManager": "",
+            "perpManager": "",
+            "advancedDOV": "",
+            "advancedPerp": ""
+        },
+        "testnet": {
+            "aiAgent": "",
+            "dovManager": "",
+            "perpManager": "",
+            "advancedDOV": "",
+            "advancedPerp": ""
+        }
+    },
+    "roles": {
+        "strategyManager": "0x0000000000000000000000000000000000000000",
+        "admin": "0x0000000000000000000000000000000000000000",
+        "operator": "0x0000000000000000000000000000000000000000"
+    },
+    "defaultParams": {
+        "dov": {
+            "targetUtilization": 8000,
+            "maxLeverage": 2000,
+            "fundingRate": 10,
+            "volatilityThreshold": 2000
+        },
+        "perpetual": {
+            "targetLeverage": 2000,
+            "fundingRate": 10,
+            "maintenanceMargin": 1000,
+            "liquidationThreshold": 500
+        }
+    },
+    "limits": {
+        "maxLeverage": 5000,
+        "minMargin": 500,
+        "maxPosition": "1000000000000000000",
+        "minPosition": "100000000000000000"
+    },
+    "timeouts": {
+        "execution": 3600,
+        "rebalance": 86400,
+        "funding": 3600
+    },
+    "gas": {
+        "create": 500000,
+        "execute": 300000,
+        "update": 200000
+    }
+}

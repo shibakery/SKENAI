@@ -9,7 +9,7 @@ contract SBXToken is ERC20, ERC20Votes, AccessControl {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     bytes32 public constant BURNER_ROLE = keccak256("BURNER_ROLE");
     
-    uint256 public constant MAX_SUPPLY = 100_000_000 * 10**18; // 100M tokens
+    uint256 public constant MAX_SUPPLY = 25_000_000 * 10**18; // 25M tokens
     
     constructor() ERC20("SKENAI Governance", "SBX") ERC20Permit("SKENAI Governance") {
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
